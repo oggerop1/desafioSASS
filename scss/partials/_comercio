@@ -1,0 +1,13 @@
+/*
+estilos comercio.html
+*/
+
+.comercio-img1 {
+    width: 50%;
+
+    &:hover {
+        backface-visibility: hidden;
+       transform: scale(1.15, 1.15);
+       opacity: 1;
+  }
+}

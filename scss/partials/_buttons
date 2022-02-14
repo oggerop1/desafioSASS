@@ -1,0 +1,41 @@
+/*estilos botones*/
+.btn {
+    
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+    &:hover{
+        color: black;
+       }
+    
+    &:after {
+        content: "";
+        background: #0099ff;
+        position: absolute;
+        z-index: -1;
+        left: -20%;
+        right: -20%;
+        top: 0;
+        bottom: 0;
+        transform: skewX(-45deg) scale(0, 1);
+        transition: all 0.5s;
+       }   
+    
+   }
+   
+   button {
+    height: 50px;
+    width: 300px;
+    &:hover:after {
+        transform: skewX(-45deg) scale(1, 1);
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+       }
+}

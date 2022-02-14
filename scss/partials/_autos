@@ -1,0 +1,27 @@
+/*estilos Autos*/
+
+   /*estilos autos*/
+.auto-img1{
+    width: 50%;
+    align-content: center;
+   }
+
+.auto-parrafo1{
+    animation-duration: 20s;
+    animation-name: parrafomoviendose;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes parrafomoviendose{
+    from {
+      margin-left:100%;
+      width:300%
+    }
+  
+    to {
+     margin-left:0%;
+     width:100%;
+   }
+  }

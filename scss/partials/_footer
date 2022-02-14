@@ -1,0 +1,18 @@
+/*footer*/
+   .footer-cont{
+    background-color: #1c2331;
+   }
+
+   .footer-section-redes-sociales{
+    background-color:#0099ff;
+   }
+
+   .footer-hr{
+    width: 60px; 
+    background-color: #0099ff; 
+    height: 2px;
+   }
+
+   .footer-div-Copyright{
+    background-color: rgba(0, 0, 0, 0.2);
+   }

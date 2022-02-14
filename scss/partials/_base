@@ -1,0 +1,34 @@
+$sombra:0px 15px 25px -4px rgba(30,30,60,0.25);
+
+.container{
+    box-shadow: $sombra;
+   }
+.col{
+    text-align: center;
+}
+
+img{
+    width:100%;
+}
+
+/*estilos bases*/
+
+h1{
+    text-align: center;
+}
+
+
+/*estilos index*/
+#index-img2{
+    
+    width: 40%; 
+    box-shadow: 0px 15px 25px -4px rgba(30,30,60,0.25);
+    &:hover{
+        backface-visibility: hidden;
+            transform: scale(1.15, 1.15);
+            opacity: 1;
+    }
+}
+
+
+/*****************************/
