@@ -16,3 +16,7 @@
    .footer-div-Copyright{
     background-color: rgba(0, 0, 0, 0.2);
    }
+
+   .foo-logo{
+      width: 10%;
+   }
